@@ -1,0 +1,654 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+body{
+    width:100%;
+    direction: rtl;
+}
+.container{
+    width:100%;
+    height:100%;
+    margin: auto;
+}
+/* start header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #4a2fe4;
+    font-size: 25px;
+    border-bottom: 2px solid #f506f5;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+   
+}
+
+
+.A_logo p{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 30px;
+    color: orange;
+    padding-right: 10px;
+    float: right;
+}
+.nav a{
+    padding:0px 5px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+.nav{
+    padding-top: 30px;
+    padding-left: 10px;
+    float: left;
+}
+
+.clear{clear: both;}
+/* end header */
+/* start section */
+.body_content{
+    width: 100%;
+}
+.pragraph{
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.pragraph p{
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: justify;
+}
+.pragraph p a{
+    text-decoration: none;
+    color: #f00;
+}
+.pragraph p a:hover{
+    color: green;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+/* end section */
+/* start artical */
+.photo{
+    width: 100%;
+    margin-top: 90px;
+}
+/* end artical */
+/* start servcies */
+.servcies{
+    width: 90%;
+    margin: 50px auto;
+    border: 2px solid violet;
+    border-radius: 10px;
+    background-color: #f9fafc;
+    padding: 10px 0px;
+}
+.servcies p{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px 5px 0px;
+    font-size: 25px;
+}
+.servcies .serviceType{
+    width:60% ;
+    font-size: 20px;
+    margin-right: 70px;
+    margin-top: 5px;
+    color: #252525;
+}
+/* end servcies */
+/* start contact */
+.phone a{
+    text-decoration: none;
+}
+.phone a:hover{
+    color: green;
+}
+/* end contact */
+/* start store */
+.store{
+    width:90%;
+    margin: 40px auto;
+    background-color: #4a2fe4;
+    border-radius: 30px;
+}
+.store p{
+    padding: 30px 30px;
+    color:orange;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* end store */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* start section */
+
+    .image_back{
+        width:100%;
+        height: 280px;  
+        background-image: url('../image/photo3_250.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    /* end section */
+    /* start artical */
+    .cover{
+        width:85%;
+        margin: auto;
+        text-align: center;
+    }
+    .cover img{
+        width: 250px;
+        height: 200px;
+        border-radius:20px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    .cover p{
+        width: 100%;
+        margin: 10px 0px;
+        font-size: 25px;
+        line-height: 40px;    
+        text-align:justify ;
+    }
+    /* end artical */
+    /* start concat */
+    .contact{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px;
+    }
+    .contactSocial1{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 20px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial2{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 30px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial1 i{
+        padding: 20px 0px ; 
+        font-size: 45px;
+        color:green;
+    }
+    .contactSocial2 i{
+        padding: 20px 0px 0px 0px ; 
+        font-size: 45px;
+        color:gray;
+    }
+    .contactSocial1 p{
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .contactSocial2 p{
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .phone{
+        margin: 0px 0px 15px 0px;
+    }
+    /* end concat */
+    /* start footer */
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        margin-top: 20px;  
+    }
+    footer p{
+        padding: 30px 0px;
+        color: white;
+        font-size: 150%;
+    }
+    /* end footer */
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* start section */
+
+    .image_back{
+        width:100%;
+        height: 350px;  
+        background-image: url('../image/photo1_500.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+    }
+    /* end section */
+    /* start artical */
+    .cover{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .cover img{
+        height: 450px;
+        width: 450px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    .cover p{
+        width: 100%;
+        margin: auto;
+        margin: 10px 0px;
+        font-size: 30px;
+        line-height: 40px;
+        text-align:justify ;
+    }
+    /* end artical */
+    /* start concat */
+    .contact{
+        width: 100%;
+        height: 350px;
+        margin: 10px 0px;
+    }
+    .contactSocial1{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 20px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial2{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 30px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial1 i{
+        padding: 20px 0px ; 
+        font-size: 50px;
+        color:green;
+    }
+    .contactSocial2 i{
+        padding: 20px 0px 0px 0px; 
+        font-size: 50px;
+        color:gray;
+    }
+    
+    .contactSocial1 p{
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 0px 10px;
+
+    }
+    .contactSocial2 p{
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    .phone{
+        margin: 0px 0px 15px 0px;
+    }
+    /* end concat */
+    /* start footer */
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        margin-top: 20px;       
+    }
+    footer p{
+        padding: 30px 0px;
+        color: white;
+        font-size: 150%;
+    }
+    /* end footer */
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* start section */
+    .image_back{
+        width:100%;
+        height: 475px;  
+        background-image: url('../image/photo2_700.webp');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+    }
+    /* end section */
+    /* start artical */
+    .cover{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .cover  img{
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    .cover p{
+        margin: 20px 0px;
+        font-size: 32px;
+        line-height: 40px;   
+        text-align:justify ;
+    }
+    /* end artical */
+    /* start concat */
+    .contact{
+        width: 100%;
+        height: 400px;
+        margin: 10px 0px;
+    }
+    .contactSocial1{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 20px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial2{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 30px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial1 i{
+        padding: 20px 0px ; 
+        font-size: 50px;
+        color:green;
+    }
+    .contactSocial2 i{
+        padding: 20px 0px 0px 0px; 
+        font-size: 50px;
+        color:gray;
+    }
+    .contactSocial1 p{
+        margin-top: 20px;
+        font-size: 21px;
+        padding: 0px 10px;
+
+    }
+    .contactSocial2 p{
+        margin-top: 20px;
+        font-size: 21px;
+        padding: 0px 10px;
+    }
+    .phone{
+        margin: 0px 0px 15px 0px;
+    }
+    /* end concat */
+    /* start footer */
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        margin-top: 20px;
+        
+    }
+    footer p{
+        padding: 30px 0px;
+        color: white;
+        font-size: 200%;
+        
+
+    }
+    /* end footer */
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* start section */
+
+    .image_back{
+        width:100%;
+        height: 550px;  
+        background-image: url('../image/photo4_900.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+
+    }
+    /* end section */
+    /* start artical */
+    .cover{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .cover  img{
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    .cover p{
+        margin: 20px 0px;
+        font-size: 32px;
+        line-height: 40px; 
+        text-align:justify ;
+    }
+    /* end artical */
+    /* start concat */
+    .contact{
+        width: 100%;
+        height: 400px;
+        margin: 10px 0px;
+    }
+    .contactSocial1{
+        width: 50%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 20px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial2{
+        width: 50%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 30px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial1 i{
+        padding: 20px 0px ; 
+        font-size: 50px;
+        color:green;
+    }
+    .contactSocial2 i{
+        padding: 20px 0px 0px 0px; 
+        font-size: 50px;
+        color:gray;
+    }
+    .contactSocial1 p{
+        margin-top: 20px;
+        font-size: 22px;
+        padding: 0px 10px;
+
+    }
+    .contactSocial2 p{
+        margin-top: 20px;
+        font-size: 22px;
+        padding: 0px 10px;
+    }
+    .phone{
+        margin: 0px 0px 15px 0px;
+    }
+    /* end concat */
+    /* start footer */
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        margin-top: 20px;
+        
+    }
+    footer p{
+        padding: 30px 0px;
+        color: white;
+        font-size: 200%;
+        
+
+    }
+    /* end footer */
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* start section */
+
+    .image_back{
+        width:100%;
+        height:770px;  
+        background-image: url('../image/home.webp');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+
+    }
+    /* end section */
+    /* start artical */
+    .photo{
+        width:80%;
+        margin: auto;
+        /* margin-top: 100px; */
+    }
+    .cover{
+        width:50%;
+        margin-top: 100px;
+        text-align: center;
+        float: right;
+    }
+    .cover img{
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    .cover p{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 30px;
+        line-height: 40px;
+        text-align:justify ;
+
+    }
+    
+    /* end artical */
+   /* start concat */
+   .contact{
+    width: 100%;
+    height: 400px;
+    margin: 10px 0px;
+    }
+    .contactSocial1{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 20px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial2{
+        width: 60%;
+        border: 1px solid #8d878d;
+        border-radius: 20px;
+        box-shadow: 10px 10px 2px gray;
+        background-color: #eff3f7;
+        margin: 40px auto;
+        text-align: center;
+        /* float: left; */
+    }
+    .contactSocial1 i{
+        padding: 20px 0px ; 
+        font-size: 50px;
+        color:green;
+    }
+    .contactSocial2 i{
+        padding: 20px 0px 0px 0px ; 
+        font-size: 50px;
+        color:gray;
+    }
+   
+    .contactSocial1 p{
+        margin-top: 20px;
+        font-size: 24px;
+        padding: 0px 10px;
+
+    }
+    .contactSocial2 p{
+        margin-top: 20px;
+        font-size: 24px;
+        padding: 0px 10px;
+
+    }
+    .phone{
+        margin: 0px 0px 15px 0px;
+    }
+    /* end concat */
+    /* start footer */
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        margin-top: 20px;
+        
+    }
+    footer p{
+        padding: 40px 0px;
+        color: white;
+        font-size: 200%;
+        
+
+    }
+    /* end footer */
+ }
